@@ -6,7 +6,6 @@ let counter = 0;
 for (let item of numbers) {
     // Put your code here
     counter = counter+1;
-    
 }
 
 console.log(counter);

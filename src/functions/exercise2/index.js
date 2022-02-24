@@ -1,10 +1,9 @@
-number = 0;
+const number = 0;
 
-function plusone(number) {
+function plusOne(number) {
+    
     number = number + 1;
     return number;
 }
 
-plusone(number);
-
-console.log(number)
+console.log(plusOne(2));

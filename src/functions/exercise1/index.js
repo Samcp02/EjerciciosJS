@@ -6,7 +6,13 @@ const numbers4 = [22,9,6,8,5,7,8,9,12,11];
 function minorValue(array) {
 
     // Put your code here
-
+    let min = array[0];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] < min) {
+            min = array[i];
+        }
+    }
+    return min;
 }
 
 const minor1 = minorValue(numbers1);

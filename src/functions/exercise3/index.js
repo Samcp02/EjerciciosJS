@@ -1,4 +1,6 @@
-
+function power (number, n=2) {
+    return number ** (1/n);
+}
 // Put your code here
 
 console.log(power(25))

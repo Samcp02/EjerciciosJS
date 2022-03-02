@@ -1,14 +1,14 @@
 const numbers = [11,9,13,12]
 
 // Put your code here
-function minorInRange (a,b) {
+function minorInRange (idx1, indx2) {
 
   let minor;
 
-  for (let i = a; i <= b; i++) {
-    if (numbers[a] < numbers[b]) {
-         minor = numbers[a]
-        } else {minor = numbers[b]}
+  for (let i = idx1; i <= indx2; i++) {
+    if (numbers[idx1] < numbers[idx1+1]) {
+         minor = numbers[idx1]
+        } else {minor = numbers[idx1+1]}
     }
     return minor;
   }

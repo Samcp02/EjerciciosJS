@@ -16,7 +16,7 @@ function sort (comparator, array) {
     for ( let currentIdx = 0 ; currentIdx < array.length-1 ; currentIdx++) {
         for ( let nextIdx = currentIdx+1 ; nextIdx < array.length ; nextIdx++ ) {
             if (
-                comparator(currentIdx, nextIdx)
+                comparator(array[currentIdx], array[nextIdx])
             ) swap (currentIdx, nextIdx, array)
         }
     }

@@ -3,7 +3,8 @@ const counters = {};
 function countLetter (letter, countersObject) {
 
     // Put your code here
-
+    counters[letter] = 1
+    
 }
 
 
